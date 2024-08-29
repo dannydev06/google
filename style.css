@@ -1,0 +1,90 @@
+html{
+    color-scheme: dark;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgba(12, 12, 12, 0.63);
+}
+.pic{
+    width: 42px;
+    padding: 5px;
+}
+.container{
+    padding: 6px;
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 35pt;
+}
+a{
+    padding: 12px;
+    color: white;
+}
+.Main-content{
+    height: 8cm;
+    width: 15cm;
+    margin-top: 3.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#label{
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1mm;
+    font-size: 24mm;
+    display: block;
+    padding: 3mm;
+    font-family: loogs ;
+    margin-bottom: 7px;
+}
+.img{
+    width: 42px;
+    height: 45px;
+    position: relative;
+    top: -1.538cm;
+    left: 13cm;
+    padding: 2mm;
+}
+.search{
+    position: relative;
+    left: -.6cm;
+}
+.inputs{
+    transform: translateX(.5cm);
+    width: 14cm;
+    height: 10.75mm;
+    border-radius: 22px;
+    border:.5px solid black ;
+    outline: 1px solid rgb(197, 197, 197);
+    padding: 6mm;
+    padding-left: 14mm;
+    padding-right:14mm;
+    margin-bottom: 12px;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.btn{
+    margin: auto;
+    width:4cm;
+    height:1cm;
+    margin-left:.5cm;
+    position: relative;
+    left:.2cm;
+    border: .2px;
+    border-radius: 3px;
+    font-size: 4.5mm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 12pt;
+}
+.link{
+    padding:2px;
+    color: rgb(109, 109, 250);
+}
